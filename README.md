@@ -1,0 +1,1 @@
+通过verilog代码实现了UART设计，顶层模块包含接收器RXer、处理器PROer和发送器TXer三部分。其中RXer与TXer具有偶校验和数据重发功能，PROer可以实现两个数据的ADD、SUB、AND和OR操作，并通过编写testbench验证了这些操作在100MHz时钟频率和115200波特率下的运行情况，最后仿真波形分析表明操作运行正常，结果正确。
